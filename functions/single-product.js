@@ -8,7 +8,6 @@ const airtable = new Airtable({ apiKey: process.env.AIRTABLE_API_KEY })
 
 exports.handler = async (event, contect, cb) => {
   const { id } = event.queryStringParameters
-
   if (id) {
     try {
       let product = await airtable.retrieve(id)
