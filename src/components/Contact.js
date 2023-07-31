@@ -5,27 +5,17 @@ const Contact = () => {
   return (
     <Wrapper>
       <div className="section-center">
-        <h3>Subscribe to the newsletter and enjoy 20% off</h3>
+        <h3>訂閱電子報即可享有20%折扣</h3>
         <div className="content">
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi,
-            omnis! Molestias voluptatibus dignissimos, sed fuga ut dolores?
-            Harum ducimus sequi, neque cum fugiat a officia iusto alias aperiam
-            doloremque quidem?
+            歡迎訂閱WaveRidersOutdoor的電子報
+            <br />
+            我們會定期分享最新的衝浪資訊、獨家優惠，甚至是衝浪小秘訣。你還在等什麼呢？現在就訂閱，讓我們與你一同迎接海浪，為你的海邊生活添加更多色彩和驚喜！
           </p>
-          <form
-            className="contact-form"
-            action="https://formspree.io/f/mjvqvlev"
-            method="POST"
-          >
-            <input
-              type="mail"
-              className="form-input"
-              placeholder="input the email"
-              name="email"
-            />
+          <form className="contact-form" action="https://formspree.io/f/mjvqvlev" method="POST">
+            <input type="mail" className="form-input" placeholder="輸入電子信箱" name="email" />
             <button type="submit " className="submit-btn">
-              subscribe
+              送出
             </button>
           </form>
         </div>

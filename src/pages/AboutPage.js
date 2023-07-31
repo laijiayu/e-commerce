@@ -11,14 +11,15 @@ const AboutPage = () => {
         <img src={aboutImg} alt="nice desk" />
         <article>
           <div className="title">
-            <h2>our desk</h2>
+            <h2>WaveRidersOutdoor</h2>
             <div className="underline"></div>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel
-            cupiditate, aliquid ipsam praesentium fugiat inventore laudantium
-            maiores. Libero quo et repudiandae ipsa in voluptas dolore
-            reiciendis, animi tempora quidem odit?
+            歡迎來到WaveRidersOutdoor，我們是你的海邊運動專家！我們提供全系列的衝浪板，無論你是新手還是專業人士，都能在這裡找到心儀的選擇。
+            <br />
+            我們的海灘服飾讓你在享受海風陽光的同時，也能展現自己獨特的風格。
+            <br />
+            期待與你一同迎接每一個振奮人心的海浪，一起享受美好的海邊生活！
           </p>
         </article>
       </Wrapper>
