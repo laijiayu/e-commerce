@@ -5,8 +5,10 @@ let Airtable = require("airtable-node")
 const airtable = new Airtable({ apiKey: process.env.AIRTABLE_API_KEY })
   .base(process.env.AIRTABLE_BASE)
   .table(process.env.AIRTABLE_TABLE)
-
+console.log(process.env.AIRTABLE_API_KEY, "1")
 exports.handler = async (event, contect, cb) => {
+  console.log(process.env.AIRTABLE_API_KEY, "2")
+
   const { id } = event.queryStringParameters
   if (id) {
     try {
