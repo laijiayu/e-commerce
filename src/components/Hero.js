@@ -17,10 +17,6 @@ const Hero = () => {
         <p>
           Explore our vast selection of premium surfing and outdoor gear designed to meet your every adventure. With
           WaveRiders Outdoors, ride the waves like never before!
-          <br />
-          探索我們精選的優質衝浪和戶外裝備。
-          <br />
-          借助 WaveRiders Outdoors，以前所未有的方式駕馭海浪！
         </p>
         <Link to="/products" className="btn hero-btn">
           shop now
