@@ -1,21 +1,26 @@
 import React from "react"
 import styled from "styled-components"
 import { Link } from "react-router-dom"
-import heroBcg from "../assets/hero-bcg.jpeg"
-import heroBcg2 from "../assets/hero-bcg-2.jpeg"
+// import heroBcg from "../assets/hero-bcg.jpeg"
+// import heroBcg2 from "../assets/hero-bcg-2.jpeg"
+import heroBcg from "../assets/hero-bcg.svg"
 
 const Hero = () => {
   return (
     <Wrapper className="section-center">
       <article className="content">
         <h1>
-          design your
+          WaveRiders
           <br />
-          comfort zone
+          Outdoor
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit atque
-          ut explicabo molestias rem nam recusandae ad nostrum eos earum?
+          Explore our vast selection of premium surfing and outdoor gear designed to meet your every adventure. With
+          WaveRiders Outdoors, ride the waves like never before!
+          <br />
+          探索我們精選的優質衝浪和戶外裝備。
+          <br />
+          借助 WaveRiders Outdoors，以前所未有的方式駕馭海浪！
         </p>
         <Link to="/products" className="btn hero-btn">
           shop now
@@ -23,7 +28,6 @@ const Hero = () => {
       </article>
       <article className="img-container">
         <img src={heroBcg} alt="nice table" className="main-img" />
-        <img src={heroBcg2} alt="working person" className="accent-img" />
       </article>
     </Wrapper>
   )
@@ -47,7 +51,7 @@ const Wrapper = styled.section`
   @media (min-width: 992px) {
     height: calc(100vh - 5rem);
     grid-template-columns: 1fr 1fr;
-    gap: 8rem;
+    gap: 2rem;
     h1 {
       margin-bottom: 2rem;
     }
@@ -76,16 +80,6 @@ const Wrapper = styled.section`
       left: 0;
       width: 250px;
       transform: translateX(-50%);
-      border-radius: var(--radius);
-    }
-    .img-container::before {
-      content: "";
-      position: absolute;
-      width: 10%;
-      height: 80%;
-      background: var(--clr-primary-9);
-      bottom: 0%;
-      left: -8%;
       border-radius: var(--radius);
     }
   }
