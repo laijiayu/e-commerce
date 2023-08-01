@@ -7,17 +7,7 @@ const Services = () => {
     <Wrapper>
       <div className="section-center">
         <article className="header">
-          <h1>
-            custom furniture
-            <br />
-            built only for you
-          </h1>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
-            consequuntur earum cumque, fuga, commodi quasi nesciunt est unde
-            aperiam deserunt provident incidunt quaerat recusandae, minima
-            officiis accusamus itaque. Voluptates, alias.
-          </p>
+          <h2>HOW WE GIVE BACK</h2>
         </article>
         <div className="services-center">
           {services.map(({ id, icon, title, text }) => {
@@ -36,6 +26,9 @@ const Services = () => {
 }
 
 const Wrapper = styled.section`
+  h1 {
+    color: var(--clr-primary-1);
+  }
   h3,
   h4 {
     color: var(--clr-primary-1);
@@ -43,7 +36,6 @@ const Wrapper = styled.section`
   padding: 5rem 0;
 
   background: var(--clr-primary-10);
-
   .header h3 {
     margin-bottom: 2rem;
   }

@@ -22,20 +22,20 @@ export const services = [
   {
     id: 1,
     icon: <GiCompass />,
-    title: "mission",
-    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi",
+    title: "支持世界各地的工匠",
+    text: "我們與工匠合作創造手工產品，同時提供可持續和公平的就業機會。",
   },
   {
     id: 2,
     icon: <GiDiamondHard />,
-    title: "vision",
-    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi",
+    title: "環保包裝",
+    text: "我們所有的產品均採用環保可回收包裝運輸，並提供免費塑料運輸選項。",
   },
   {
     id: 3,
     icon: <GiStabbedNote />,
-    title: "history",
-    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi",
+    title: "向慈善機構捐贈",
+    text: "我們與全球 200 多家慈善機構合作，並一直幫助支持偉大的事業。",
   },
 ]
 
